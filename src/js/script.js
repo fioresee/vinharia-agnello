@@ -12,22 +12,17 @@ alert("Cadastro realizado com sucesso! Veja os detalhes no console!");
 
 // Prompt para o usuário escolher um vinho e obter detalhes sobre ele.
 let nomedovinho = prompt("Qual vinho você gostaria de conhecer melhor? (Digite o nome do vinho)");
-
+console.log(`Nome do vinho: ${nomedovinho}.`);
 // Prompt para o usuário escolher o tipo de vinho.
 let tipodovinho = prompt("Qual tipo de vinho você prefere? (Tinto, Branco, Rosé)");
-
+console.log(`Tipo de vinho: ${tipodovinho}.`);
 // Prompt para o usuário escolher a safra do vinho.
 let safradovinho = prompt("Qual safra do vinho você gostaria de conhecer? (Digite o ano da safra)");
-
+console.log(`Safra do vinho: ${safradovinho}.`);
 // Exemplo de quantidade em estoque para o vinho selecionado.
 let quantidade_estoque = 10;
-
-// Exibindo os detalhes do vinho selecionado no console e um alerta para o usuário conferir as informações.
-console.log("Veja os detalhes do vinho selecionado:");
-console.log(`Nome do vinho: ${nomedovinho}.`);
-console.log(`Tipo de vinho: ${tipodovinho}.`);
-console.log(`Safra do vinho: ${safradovinho}.`);
 console.log(`Quantidade em estoque: ${quantidade_estoque}.`);
+// Exibindo os detalhes do vinho selecionado no console e um alerta para o usuário conferir as informações.
 alert("Confira os detalhes do vinho selecionado no console!");
 
 
